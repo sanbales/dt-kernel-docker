@@ -1,0 +1,14 @@
+name: dt-kernel
+channels:
+  - conda-forge
+  - dlr-sc
+dependencies:
+  - python=3.5.*
+  - numpy=1.12.*
+  - scipy=0.19.*
+  - matplotlib=2.*
+  - sphinx=1.5.*
+  - vtk
+  - pythonocc-core
+  - pip:
+      - pytest-cov
